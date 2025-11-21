@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=GFS+Didot&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clube da Chiquetosa</title>
+  </head>
+  <body>
+    <!-- parte do bg-container (já existente no seu HTML) -->
+    <div id="bg-container">
+      <video
+        id="bg-video"
+        autoplay
+        muted
+        loop
+        src="./video/beleza.mp4"></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header>
+      <img class="logo-chiquetosa" src="./img/logo-chiquetosa.png" alt="logo" />
+      <div class="links">
+        <a href="#">HOME</a>
+        <a href="#profissionais">PROFISSIONAIS</a>
+        <a href="#">SOBRE NÓS</a>
+        <a href="#">SEJA UMA CHIQUETOSA</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- BACKGROUND FIXO E CAMADAS -->
+
+      <div class="boxText">
+        <h1>O que te faz sentir bem consigo mesma ?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          exercitationem repellat saepe voluptates optio distinctio similique
+          eius tenetur totam odit eligendi facilis perspiciatis blanditiis sunt,
+          delectus alias! Optio, debitis esse.
+        </p>
+      </div>
+
+      <img class="mulher" src="./img/foto-mulher3.png" alt="Mulher" />
+    </div>
+    <div class="profissionais" id="profissionais">
+      <h1 class="h1-prof">Conheça algumas de nossas profissionais</h1>
+      <div class="prof-cards">
+        <div class="carousel">
+  <div class="carousel-track">
+    <!-- SEUS FIGURES AQUI -->
+            <figure class="alice">
+                <img  src="./img/cards/alice-andrade.jpeg"  alt="foto da alice">
+                
+                <figcaption>
+                Alice Andrade
+              </figcaption>
+              </figure>
+              <figure class="catia">
+                <img src="./img/cards/catia-surama.jpeg" alt="">
+                <figcaption>Catia Surama</figcaption>
+              </figure>
+               
+              <figure class="maria-luz">
+                <img src="./img/cards/maria-luz.jpeg" alt="">
+                <figcaption>Maria Luz</figcaption>
+              </figure>              
+              <figure class="paula">
+                <img src="./img/cards/paula.jpeg" alt="">
+                <figcaption>Dra. Paula Bomfim</figcaption>
+              </figure>
+              
+              <figure class="valdirene">
+                <img src="./img/cards/valdirene.jpeg" alt="">
+                <figcaption>Valdirene Andrade</figcaption>
+              </figure>
+
+  </div>
+
+  <button class="carousel-btn prev">◀</button>
+  <button class="carousel-btn next">▶</button>
+
+  <div class="carousel-dots"></div>
+</div>
+
+        
+          
+              
+          
+        
+              
+                       
+      </div>
+    </div>
+
+    <footer>
+      <a href="#">PROFISSIONAIS</a>
+      <a href="#">SOBRE NÓS</a>
+      <a href="#">SEJA UMA CHIQUETOSA</a>
+      <a href="#"><img  src="./img/link-insta.png" alt="" /> @clubedachiquetosa</a
+      >
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
